@@ -9,7 +9,7 @@ export default function Inter() {
       <div className='int-div'>
         <div className='internet-container'>
           <h2 className='section-title'>Description:</h2>
-          <p className='description'>{description}</p>
+          <p className='description'>{InternetJson.internet.description}</p>
 
           <h2 className='section-title'>Components:</h2>
           <ul className='component-list'>
