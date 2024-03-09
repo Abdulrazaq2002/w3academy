@@ -36,13 +36,13 @@ export default function Home() {
       <section className='roadmap-section'>
         <div className='Roadmap'>
           <p>How To Be A Web-dev:-</p>
-          <p>
+          {/* <p>
             1. Learn What Is{" "}
             <Link title='./Internet' className='link' to='/inter'>
               {" "}
               Internet
             </Link>
-          </p>
+          </p> */}
           <p>
             2. Learn{" "}
             <Link title='./Html' className='link' to='/html'>

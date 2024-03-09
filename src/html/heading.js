@@ -98,12 +98,14 @@ export default function Heading({ onNext, onPrev, currentSec }) {
         <h4>{html.heading.h4.textContent}</h4>
         <h5>{html.heading.h4.textContent}</h5>
         <h6>{html.heading.h6.textContent}</h6>
-        <button
-          style={buttonStyle}
-          onClick={onPrev}
-          disabled={currentSec === 0}>
-          Prev
-        </button>
+        <Link to='/inter'>
+          <button
+            style={buttonStyle}
+            onClick={onPrev}
+            disabled={currentSec === 0}>
+            Prev
+          </button>
+        </Link>
         <Link to='/para'>
           <button style={buttonStyle} onClick={onNext}>
             Next

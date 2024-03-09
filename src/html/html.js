@@ -3,7 +3,7 @@ import htmlData from "../json/html.json";
 import Form from "./form";
 import Para from "./para";
 import Heading from "./heading";
-import Compilar from "../component/compilar";
+import Inter from "../pages/inter";
 
 export default function HTML() {
   const { htmlDocument } = htmlData;
@@ -23,6 +23,13 @@ export default function HTML() {
     <>
       <p>Practice This In Below Given IDE Inside "html" Tag</p>
       {currentSection === 0 && (
+        <Inter
+          onNext={nextSection}
+          onPrev={prevSection}
+          currentSec={currentSection}
+        />
+      )}
+      {currentSection === 1 && (
         <Heading
           onNext={nextSection}
           onPrev={prevSection}
@@ -30,12 +37,12 @@ export default function HTML() {
         />
       )}
 
-      {currentSection === 1 && (
+      {currentSection === 2 && (
         <paired>
           <Para onNext={nextSection} onPrev={prevSection} />
         </paired>
       )}
-      {currentSection === 2 && (
+      {currentSection === 3 && (
         <>
           <Form
             onNext={nextSection}
