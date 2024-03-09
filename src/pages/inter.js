@@ -2,7 +2,7 @@ import InternetJson from "../json/internet.json";
 import "../style/internet.css";
 import Footer from "../component/footer";
 
-export default function Internet() {
+export default function Inter() {
   const { description, components, importance_for_frontend } =
     InternetJson.internet;
 

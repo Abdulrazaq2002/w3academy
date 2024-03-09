@@ -5,7 +5,7 @@ import Course from "./pages/course";
 import Heading from "./html/heading";
 import Para from "./html/para";
 import Form from "./html/form";
-import Internet from "./pages/internet";
+import Internet from "./pages/inter";
 import Html from "./html/html";
 import Css from "./css/css";
 import Js from "./javascript/javascript";
@@ -23,8 +23,7 @@ export default function App() {
           {/* Updated Route */}
           <Route path='/course' element={<Course />} /> {/* Updated Route */}
           <Route path='/html' element={<Html />} /> {/* Updated Route */}
-          <Route path='/internet' element={<Internet />} />{" "}
-          {/* Updated Route */}
+          <Route path='/inter' element={<Internet />} /> {/* Updated Route */}
           <Route path='/heading' element={<Heading />} /> {/* Updated Route */}
           <Route path='/para' element={<Para />} /> {/* Updated Route */}
           <Route path='/form' element={<Form />} /> {/* Updated Route */}

@@ -5,9 +5,9 @@ export default function Course() {
   return (
     <div className='course-container'>
       <h1 className='course-item'>
-        <Link to='/internet'>Internet</Link>
-      </h1>
-      <h1 className='course-item'>
+        <h1 className='course-item'>
+          <Link to='/inter'>Internet</Link>
+        </h1>
         <ol>
           <Link to='/html'>Html</Link>
           <Link to='/heading'>
