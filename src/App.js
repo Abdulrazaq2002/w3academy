@@ -18,12 +18,13 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/w3academy' element={<Home />} /> {/* Updated Route */}
+          <Route path='/' element={<Home />} /> {/* Updated Route */}
           <Route path='/compiler' element={<Compiler />} />{" "}
           {/* Updated Route */}
           <Route path='/course' element={<Course />} /> {/* Updated Route */}
           <Route path='/html' element={<Html />} /> {/* Updated Route */}
-          <Route path='/inter' element={<Internet />} /> {/* Updated Route */}
+          <Route path='/w3academy' element={<Internet />} />{" "}
+          {/* Updated Route */}
           <Route path='/heading' element={<Heading />} /> {/* Updated Route */}
           <Route path='/para' element={<Para />} /> {/* Updated Route */}
           <Route path='/form' element={<Form />} /> {/* Updated Route */}
