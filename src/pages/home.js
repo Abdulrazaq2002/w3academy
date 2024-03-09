@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "../style/home.css";
 import Footer from "../component/footer";
+import Inter from "../html/internet";
 
 export default function Home() {
   const [message, setMessage] = useState("");
@@ -33,6 +34,11 @@ export default function Home() {
       <header className='home-div'>
         <p className='message'>{message}</p>
       </header>
+      <div>
+        <p>Learn About Internet :</p>
+        <Inter />
+      </div>
+
       <section className='roadmap-section'>
         <div className='Roadmap'>
           <p>How To Be A Web-dev:-</p>
