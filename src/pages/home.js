@@ -35,7 +35,7 @@ export default function Home() {
         <p className='message'>{message}</p>
       </header>
       <div>
-        <p>Learn About Internet :</p>
+        <h1>Learn About Internet :</h1>
         <Inter />
       </div>
 
