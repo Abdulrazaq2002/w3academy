@@ -1,0 +1,51 @@
+{
+  "javascript": {
+    "introduction": "JavaScript is a high-level, interpreted programming language used to create dynamic and interactive websites.",
+    "features": [
+      "Weakly typed language",
+      "Prototype-based object-oriented",
+      "First-class functions",
+      "Dynamic typing",
+      "Event-driven programming"
+    ],
+    "syntax": {
+      "variables": "Variables are used to store data values. They can be declared using 'var', 'let', or 'const' keywords.",
+      "functions": "Functions are blocks of reusable code. They can be declared using the 'function' keyword or arrow functions.",
+      "control_flow": "Control flow statements include 'if', 'else', 'switch', 'while', 'do-while', 'for' loops, etc.",
+      "objects": "Objects are collections of key-value pairs. They can be created using object literals or constructors.",
+      "arrays": "Arrays are used to store multiple values in a single variable. They can be created using array literals or constructors."
+    },
+    "examples": [
+      {
+        "description": "Declaring and using variables",
+        "code": "let message = 'Hello, world!';\nconsole.log(message);"
+      },
+      {
+        "description": "Defining and calling a function",
+        "code": "function greet(name) {\n  return 'Hello, ' + name + '!';\n}\nconsole.log(greet('Alice'));"
+      },
+      {
+        "description": "Working with arrays",
+        "code": "let numbers = [1, 2, 3, 4, 5];\nconsole.log(numbers.reduce((sum, num) => sum + num));"
+      },
+      {
+        "description": "Using conditional statements",
+        "code": "let age = 18;\nif (age >= 18) {\n  console.log('You are an adult.');\n} else {\n  console.log('You are a minor.');\n}"
+      },
+      {
+        "description": "Creating and using objects",
+        "code": "let person = {\n  name: 'John',\n  age: 30,\n  city: 'New York'\n};\nconsole.log(person.name);\nconsole.log(person['age']);"
+      }
+    ],
+    "resources": [
+      {
+        "title": "MDN Web Docs - JavaScript",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "title": "W3Schools - JavaScript Tutorial",
+        "link": "https://www.w3schools.com/js/"
+      }
+    ]
+  }
+}

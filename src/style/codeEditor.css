@@ -1,0 +1,95 @@
+.code-editor-container {
+  display: flex; /* Use flexbox for layout */
+}
+
+.code-editor,
+.output-container {
+  flex: 1; /* Make both containers flexible */
+}
+
+.code-editor {
+  margin-right: 20px; /* Add some space between the containers */
+}
+
+.console-container {
+  flex: 1; /* Make the console container flexible */
+}
+/* codeEditor.css */
+.code-editor-container {
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: stretch; /* Align items to stretch */
+}
+
+.code-editor {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.code-editor textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none; /* Prevent textarea resizing */
+}
+
+.code-editor button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.code-editor button:hover {
+  background-color: #0056b3;
+}
+
+.output-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.output-container h2 {
+  margin-bottom: 10px;
+}
+
+.output-container iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.console-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.console-container h2 {
+  margin-bottom: 10px;
+}
+
+.console-output {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none; /* Prevent textarea resizing */
+}

@@ -1,0 +1,31 @@
+.footer {
+  display: inline;
+  /* position: absolute; */
+  top: 100%;
+  width: 100%;
+  /* margin-bottom: 10px; */
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 24px; /* Adjust icon size if necessary */
+  margin-right: 10px;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+.social-img {
+  height: 50px;
+}
+.social-img:hover {
+  text-decoration: underline;
+  height: 55px;
+}

@@ -1,0 +1,100 @@
+{
+  "css": {
+    "introduction": "Cascading Style Sheets (CSS) is a stylesheet language used for describing the presentation of a document written in HTML or XML.",
+    "syntax": {
+      "selectors": "Selectors are used to target the HTML elements you want to style. They can be element selectors, class selectors, id selectors, etc.",
+      "properties": "CSS properties are used to specify the styles of elements. Each property has a name and a value.",
+      "declaration": "A declaration consists of a property and its corresponding value, separated by a colon and terminated by a semicolon.",
+      "rule": "A CSS rule consists of a selector and a declaration block, which contains one or more declarations.",
+      "comments": "Comments in CSS start with /* and end with */. They are ignored by the browser and are used to add notes or descriptions in the code."
+    },
+    "selectors": {
+      "element": "Selects HTML elements by their tag name.",
+      "class": "Selects HTML elements with a specific class attribute.",
+      "id": "Selects a single HTML element with a specific id attribute.",
+      "attribute": "Selects HTML elements with a specific attribute or attribute value.",
+      "pseudo": "Selects elements based on their state or position in the document."
+    },
+    "properties": {
+      "color": "Specifies the text color of an element.",
+      "background-color": "Specifies the background color of an element.",
+      "font-size": "Specifies the size of the font.",
+      "font-family": "Specifies the font family to be used for text.",
+      "margin": "Specifies the margin space around an element.",
+      "padding": "Specifies the padding space around an element.",
+      "border": "Specifies the border properties of an element.",
+      "width": "Specifies the width of an element.",
+      "height": "Specifies the height of an element."
+    },
+    "problems": [
+      {
+        "issue": "Element not styled as expected",
+        "solution": "Check if the selector is targeting the correct element. Verify if there are any conflicting styles or specificity issues."
+      },
+      {
+        "issue": "Layout broken on certain devices",
+        "solution": "Use responsive design techniques such as media queries to adjust the layout based on the device's screen size. Test the website on multiple devices and browsers."
+      },
+      {
+        "issue": "Text overflowing its container",
+        "solution": "Ensure that the container has sufficient width and height to accommodate the text. Consider using CSS properties like overflow to handle overflow issues."
+      }
+    ],
+    "examples": [
+      {
+        "description": "Styling text color",
+        "code": ".box { color: red; }"
+      },
+      {
+        "description": "Setting background color",
+        "code": ".box { background-color: #f0f0f0; }"
+      },
+      {
+        "description": "Adding margin and padding",
+        "code": ".box { margin: 20px; padding: 10px; }"
+      },
+      {
+        "description": "Creating a border",
+        "code": ".box { border: 1px solid #000; }"
+      },
+      {
+        "description": "Centering an element horizontally",
+        "code": ".box { margin: 0 auto; }"
+      },
+      {
+        "description": "Animating an element",
+        "code": ".box { animation: spin 2s linear infinite; }\n@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }"
+      },
+      {
+        "description": "Adding text shadow",
+        "code": ".box { text-shadow: 2px 2px 4px #000; }"
+      },
+      {
+        "description": "Styling links",
+        "code": "a { color: blue; text-decoration: none; }\na:hover { text-decoration: underline; }"
+      },
+      {
+        "description": "Creating a gradient background",
+        "code": ".box { background: linear-gradient(to right, #ff0000, #0000ff); }"
+      },
+      {
+        "description": "Creating rounded corners",
+        "code": ".box { border-radius: 10px; }"
+      },
+      {
+        "description": "Positioning elements",
+        "code": ".box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }"
+      }
+    ],
+    "resources": [
+      {
+        "title": "MDN Web Docs - CSS",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },
+      {
+        "title": "W3Schools - CSS Tutorial",
+        "link": "https://www.w3schools.com/css/"
+      }
+    ]
+  }
+}

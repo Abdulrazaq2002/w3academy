@@ -1,0 +1,66 @@
+{
+  "htmlDocument": {
+    "documentTypeDeclaration": "<!DOCTYPE html>",
+    "html": {
+      "head": {
+        "title": "Document Title",
+        "metaTags": [
+          { "charset": "UTF-8" },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1.0"
+          }
+        ]
+      },
+      "heading": {
+        "define": "In HTML, heading tags are used to define headings or titles for sections of a web page. They are essential for structuring the content and providing hierarchy to the text. HTML provides six levels of heading tags, from",
+        "h1": { "tagName": "h1", "textContent": "<h1>Heading 1</h1>" },
+        "h2": { "tagName": "h2", "textContent": "<h2>Heading 2</h2>" },
+        "h3": { "tagName": "h3", "textContent": "<h5>Heading 5</h5>" },
+        "h4": { "tagName": "h4", "textContent": "<h4>Heading 4</h4>" },
+        "h5": { "tagName": "h5", "textContent": "<h5>Heading 5</h5>" },
+        "h6": { "tagName": "h6", "textContent": "<h6>Heading 6</h6>" }
+      },
+
+      "pairedTags": {
+        "paragraph": {
+          "tagName": "p",
+          "textContent": "<p>This is a paragraph.</p>"
+        },
+        "div": {
+          "tagName": "div",
+          "textContent": "<div><p>This is a div.<p></div>",
+          "attributes": [{ "name": "class", "value": "example-div" }]
+        },
+        "span": {
+          "tagName": "span",
+          "textContent": "This is a span.",
+          "attributes": [{ "name": "style", "value": "color: red;" }]
+        },
+        "ul": {
+          "tagName": "ul",
+          "textContent": "<ul> This is an unordered list.",
+          "children": [
+            { "tagName": "li", "textContent": "<li>Item 1</li>" },
+            { "tagName": "li", "textContent": "<li>Item 2</li>" },
+            { "tagName": "li", "textContent": "<li>Item 3</li> </ul>" }
+          ]
+        },
+        "ol": {
+          "tagName": "ol",
+          "textContent": "This is an ordered list.",
+          "children": [
+            { "tagName": "li", "textContent": "First item" },
+            { "tagName": "li", "textContent": "Second item" },
+            { "tagName": "li", "textContent": "Third item" }
+          ]
+        }
+      },
+      "form": {
+        "textContent": "<form></form>",
+        "element": "These are the building blocks that allow users to interact with the form and provide information. Here are some common elements: <input>: This versatile element creates different input fields depending on its type attribute. Examples include: text: Creates a single-line text input field.email: Creates an email input field with basic validation (e.g., checks for @ symbol). password: Creates a password input field where characters are masked for security. checkbox: Creates a checkbox for selecting one or more options. radio: Creates radio buttons for selecting only one option from a group.  <textarea>: This element creates a multi-line text input field for longer text entries.  <select>: This element creates a dropdown menu for selecting options from a list.",
+        "syntax": "<form><label for='name'>Name:</label> <input type='text' id='name' name='name' required> <br><label for='email'>Email:</label><input type='email' id='email' name='email' required> <br><button type='submit'>Submit</button></form>"
+      }
+    }
+  }
+}

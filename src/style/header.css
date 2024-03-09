@@ -1,0 +1,28 @@
+.header-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Green background color */
+  overflow: hidden;
+}
+
+.header-menu-item {
+  float: left;
+}
+
+.header-menu-item:hover {
+  text-decoration: underline;
+}
+
+.header-menu-item {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of active/current menu item */
+.header-menu-item.active {
+  background-color: #000000;
+}

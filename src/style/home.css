@@ -1,0 +1,56 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.home-div {
+  display: grid;
+  place-items: center;
+}
+
+.message {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: 500; /* Use font-weight 500 for medium thickness */
+  color: #333; /* Set font color */
+
+  opacity: 0; /* Initially hide the message */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply fadeIn animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.roadmap-section {
+  display: flex;
+  align-items: flex-start;
+}
+.Roadmap {
+  margin-left: 100px;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: -50px;
+  /* flex: 1; Allow the roadmap content to grow and fill the available space */
+  /* padding-right: 20px; Add some spacing between the content and the image */
+  font-weight: bolder;
+}
+.Roadmap p {
+  color: rgb(39, 36, 36);
+  font-family: "Roboto", sans-serif;
+  /* font-size: 16px; */
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.img-map {
+  margin-top: 6%;
+  max-width: 50%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Maintain the aspect ratio of the image */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  border-radius: 8px; /* Add rounded corners to the image */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+.link {
+  color: black;
+}
