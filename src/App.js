@@ -17,11 +17,11 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/' exact Component={Home} />
+          <Route path='/w3academy' Component={Home} />
           <Route path='compiler' Component={Compiler} />
           <Route path='/course' Component={Course} />
           <Route path='/html' Component={Html} />
-          <Route path='/internet' Component={Internet} />
+          <Route path='/internet' exact Component={Internet} />
           <Route path='/heading' Component={Heading} />
           <Route path='/para' Component={Para} />
           <Route path='/form' Component={Form} />
