@@ -38,7 +38,7 @@ export default function Home() {
           <p>How To Be A Web-dev:-</p>
           <p>
             1. Learn What Is{" "}
-            <Link title='./internet' className='link' to='/internet'>
+            <Link title='./Internet' className='link' to='/internet'>
               {" "}
               Internet
             </Link>
