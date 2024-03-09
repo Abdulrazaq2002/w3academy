@@ -71,7 +71,6 @@ export default function Home() {
         />
         <Link to='/languages'></Link>
       </section>
-      <Footer />
     </>
   );
 }
