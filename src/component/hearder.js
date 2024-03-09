@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <>
       <ul className='header-menu'>
-        <Link to='/w3academy' className='header-menu-link'>
+        <Link to='/inter' className='header-menu-link'>
           <li title='Home' className='header-menu-item'>
             Home
           </li>

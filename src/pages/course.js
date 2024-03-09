@@ -6,7 +6,7 @@ export default function Course() {
     <div className='course-container'>
       <h1 className='course-item'>
         <h1 className='course-item'>
-          <Link to='/w3academy'>Internet</Link>
+          <Link to='/inter'>Internet</Link>
         </h1>
         <ol>
           <Link to='/html'>Html</Link>

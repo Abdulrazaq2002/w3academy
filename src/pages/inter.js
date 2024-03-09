@@ -1,15 +1,16 @@
+import React from "react";
 import InternetJson from "../json/internet.json";
 import "../style/internet.css";
 import Footer from "../component/footer";
 
-export default function Inter() {
+const Inter = () => {
   const { description, components, importance_for_frontend } =
     InternetJson.internet;
 
   return (
     <>
       <div className='int-div'>
-        <container className='internet-container'>
+        <div className='internet-container'>
           <h2 className='section-title'>Description:</h2>
           <p className='description'>{description}</p>
 
@@ -20,7 +21,7 @@ export default function Inter() {
                 <strong>{component.name}:</strong> {component.description}
                 <br />
                 {component.protocal && (
-                  <ul className='component-list'>
+                  <ul className='protocol-list'>
                     {Object.values(component.protocal).map((value, index) => (
                       <li key={index}>
                         <strong>{value}</strong>
@@ -40,10 +41,12 @@ export default function Inter() {
               </li>
             ))}
           </ul>
-        </container>
+        </div>
       </div>
 
       <Footer />
     </>
   );
-}
+};
+
+export default Inter;
