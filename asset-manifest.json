@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/w3academy/static/css/main.aa80b501.css",
-    "main.js": "/w3academy/static/js/main.6326b14b.js",
+    "main.js": "/w3academy/static/js/main.db995dfb.js",
     "index.html": "/w3academy/index.html",
     "main.aa80b501.css.map": "/w3academy/static/css/main.aa80b501.css.map",
-    "main.6326b14b.js.map": "/w3academy/static/js/main.6326b14b.js.map"
+    "main.db995dfb.js.map": "/w3academy/static/js/main.db995dfb.js.map"
   },
   "entrypoints": [
     "static/css/main.aa80b501.css",
-    "static/js/main.6326b14b.js"
+    "static/js/main.db995dfb.js"
   ]
 }
