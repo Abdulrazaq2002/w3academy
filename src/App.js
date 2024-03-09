@@ -17,7 +17,7 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/home' exact Component={Home} />
+          <Route path='/' exact Component={Home} />
           <Route path='compiler' Component={Compiler} />
           <Route path='/course' Component={Course} />
           <Route path='/html' Component={Html} />
