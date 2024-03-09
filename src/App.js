@@ -5,7 +5,7 @@ import Course from "./pages/course";
 import Heading from "./html/heading";
 import Para from "./html/para";
 import Form from "./html/form";
-import Internet from "./courses/internet";
+import Internet from "./pages/internet";
 import Html from "./html/html";
 import Css from "./css/css";
 import Js from "./javascript/javascript";
@@ -20,11 +20,11 @@ export default function App() {
           <Route path='/' exact Component={Home} />
           <Route path='compiler' Component={Compiler} />
           <Route path='/course' Component={Course} />
+          <Route path='/internet' Component={Internet} />
           <Route path='/html' Component={Html} />
           <Route path='/heading' Component={Heading} />
           <Route path='/para' Component={Para} />
           <Route path='/form' Component={Form} />
-          <Route path='/internet' Component={Internet} />
           <Route path='/css' Component={Css} />
           <Route path='/js' Component={Js} />
           <Route path='/about' Component={About} />
