@@ -36,32 +36,27 @@ export default function Home() {
       <section className='roadmap-section'>
         <div className='Roadmap'>
           <p>How To Be A Web-dev:-</p>
+
           <p>
-            1.
-            <Link title='' className='link' to='#'>
-              {" "}
-            </Link>
-          </p>
-          <p>
-            2. Learn{" "}
+            1. Learn{" "}
             <Link title='./Html' className='link' to='/html'>
               Html
             </Link>
           </p>
           <p>
-            3. Learn{" "}
+            2. Learn{" "}
             <Link title='./CSS' className='link' to='/css'>
               CSS
             </Link>
           </p>
           <p>
-            4. Learn{" "}
+            3. Learn{" "}
             <Link title='./JAVASCRIPT' className='link' to='/js'>
               JAVASCRIPT
             </Link>{" "}
           </p>
-          <p>5. Practice Making Dummy Sites </p>
-          <p>6. Explore More Web-Dev World</p>
+          <p>4. Practice Making Dummy Sites </p>
+          <p>5. Explore More Web-Dev World</p>
         </div>
         <img
           className='img-map'
