@@ -1,4 +1,4 @@
-import Header from "./component/header"; // Corrected import statement
+import Header from "./component/hearder";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Course from "./pages/course";
